@@ -55,3 +55,4 @@ public class MainActivity extends AppCompatActivity {
         rootView.setBackgroundColor(color);
     }
 }
+
