@@ -40,10 +40,10 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if (isColorChanging) {
                     handler.removeCallbacks(colorChanger);
-                    changeColorButton.setText("Start Color Change");
+                    changeColorButton.setText("Start Color Change!");
                 } else {
                     handler.post(colorChanger);
-                    changeColorButton.setText("Stop Color Change");
+                    changeColorButton.setText("Stop Color Change!");
                 }
                 isColorChanging = !isColorChanging;
             }
